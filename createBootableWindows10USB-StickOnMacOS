@@ -1,0 +1,20 @@
+# download your windows 10 iso from microsoft.com to Downloads
+# https://www.microsoft.com/de-de/software-download/windows10
+
+diskutil list
+
+# find your usb stick, e.g.: disk4
+
+diskutil eraseDisk MS-DOS WIN10 MBR /dev/disk4
+
+open /Users/<user>/Downloads/Win10*.iso
+
+rsync -avh --progress --exclude=sources/install.wim /Volumes/CCCOMA_X64FRE_EN-US_DV9/ /Volumes/WIN10
+
+brew install wimlib
+
+wimlib-imagex split /Volumes/CCCOMA_X64FRE_EN-US_DV9/sources/install.wim /Volumes/WIN10/sources/install.swm 4000
+
+diskutil eject /dev/disk4
+
+# done
