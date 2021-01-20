@@ -3,44 +3,44 @@
 # tmp_Lucifer.S01E02.Der.Teufel.in.Therapie.GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t.mkv
 
 
-# 1. example (beginning):
+# 1. example (remove string):
 # you want to remove "tmp_" in all filenames:
-for f in tmp_*.mkv; do mv -i "${f}" "${f/tmp_/}"; done
-# OR
 for f in tmp_*; do mv "$f" "$(echo "$f" | sed 's/tmp_//g')"; done
+# OR
+for f in tmp_*.mkv; do mv -i "${f}" "${f/tmp_/}"; done
 #
 # ls
 # Lucifer.S01E01.Die.teuflische.Auszeit.GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t.mkv
 # Lucifer.S01E02.Der.Teufel.in.Therapie.GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t.mkv
 
 
-# 2. example (between):
+# 2. example (remove string):
 # you want to remove "GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t." in all filenames:
-for f in Lucifer*.mkv; do mv -i "${f}" "${f/GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t./}"; done
-# OR
 for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t.//g')"; done
+# OR
+for f in Lucifer*.mkv; do mv -i "${f}" "${f/GERMAN.DUBBED.AC3.720p.BluRay.x264-w00t./}"; done
 #
 # ls
 # Lucifer.S01E01.Die.teuflische.Auszeit.mkv
 # Lucifer.S01E02.Der.Teufel.in.Therapie.mkv
 
 
-# 3. example (rename/change):
+# 3. example (replace character/string):
 # you want to replace all "." with " " in all filenames:
-for f in Lucifer*"."*; do mv -i "$f" "${f//./ }"; done
-# OR
 for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/\./\ /g')"; done
+# OR
+for f in Lucifer*"."*; do mv -i "$f" "${f//./ }"; done
 #
 # ls
 # Lucifer S01E01 Die teuflische Auszeit mkv
 # Lucifer S01E02 Der Teufel in Therapie mkv
 
 
-# 4. example (rename/change):
+# 4. example (replace character/string):
 # you want to insert a "." in front of "mkv" in all filenames:
-for f in Lucifer*; do mv -i "${f}" "${f/ mkv/.mkv}"; done
-# OR
 for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/\ mkv/\.mkv/g')"; done
+# OR
+for f in Lucifer*; do mv -i "${f}" "${f/ mkv/.mkv}"; done
 #
 # ls
 # Lucifer S01E01 Die teuflische Auszeit.mkv
@@ -51,8 +51,8 @@ for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/\ mkv/\.mkv/g')"; done
 # you want to insert a " - " in front of and after "S01Exx" in all filenames:
 for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/^\(.\{14\}\)/\1\ \-/')"; done
 for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/^\(.\{7\}\)/\1\ \-/')"; done
-# OR
-for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/\(S[0-9][0-9]E[0-9][0-9]\)/\-\ \1\ -/')"; done
+# OR (insert before and after match (1))
+for f in Lucifer*; do mv "$f" "$(echo "$f" | sed 's/\(S01E[0-9][0-9]\)/\-\ \1\ -/')"; done
 #
 # ls
 # Lucifer - S01E01 - Die teuflische Auszeit.mkv
