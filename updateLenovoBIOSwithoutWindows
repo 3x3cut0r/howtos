@@ -1,0 +1,26 @@
+# download Windows 10 iso from microsoft.com (64bit recommended)
+
+# don't use Rufus! -> the GPT formatted UEFI USB Stick will not boot!
+# Lenovo BIOS Updater require EFI only boot!
+
+# download and install free version of Win2USB: https://www.easyuefi.com/wintousb/
+#
+# start Win2USB
+# select your downloaded Windows 10 image
+# select Windows 10 Home -> only option in free version!
+# select your USB drive
+# select GPT for UEFI !
+# select yes to format your USB Stick
+# install mode: Legacy !!!
+
+# don't forget to copy the Lenovo BIOS Updater to your USB Stick !!!
+# download driver from: https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/5-series/ideapad-5-14alc05/downloads/driver-list/
+
+# on your Lenovo Laptop
+#
+# Enter BIOS with F2:
+# Boot/Boot Mode: UEFI
+# Boot/USB Boot:  Enabled
+# Security/Secure Boot: Disabled! (only visible if Boot/Boot Mode = UEFI)
+
+# boot your EFI USB Stick (F12)
