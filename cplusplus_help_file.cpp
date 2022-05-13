@@ -110,7 +110,7 @@ int main() {                                                            // entry
 
 // for
     for (size_t i = 0; i < int1 ; ++i) {                                // size_t is typically used for arrays or loop counts (= unsigned int)
-        std::cout << "Number: " << i << '\n';
+        std::cout << "Number: " << i << '\n';                           // (DE: Zählerschleife)
     }
 
     // std::string        string1 = "This is a String";
@@ -122,14 +122,14 @@ int main() {                                                            // entry
     std::cout << std::endl;
 
     for (int e: array1) {        // -> prefered for vectors and arrays  // go through all elements (e) in vec1
-        std::cout << "Vector Element: " << e << '\n';
+        std::cout << "Vector Element: " << e << '\n';                   // (DE: Bereichsbasierte Schleife)
     }
 
 // while
     // std::vector<int>        vec1 {1, 2, 3, 4, 5};
     std::vector<int>::iterator it_vec1_begin = vec1.begin();            // pointer to the first vector int element  -> output with *it_vec1_begin
     std::vector<int>::iterator it_vec1_end = vec1.end();                // pointer to the last vector int element   -> output = error because it's empty
-    while (it_vec1_begin != it_vec1_end) {
+    while (it_vec1_begin != it_vec1_end) {                              // (DE: Kopfgesteuerte Schleife)
         std::cout << *it_vec1_begin;
         it_vec1_begin++;
     }
@@ -140,7 +140,7 @@ int main() {                                                            // entry
     do {                                                                // difference:
         std::cout << *it_vec1_begin;                                    //     while:       loop maybe running 0 times if condition doesn't match
         it_vec1_begin++;                                                //     do while:    loop is running at least once even if the condition doesn't match!
-    } while (it_vec1_begin != it_vec1_end);
+    } while (it_vec1_begin != it_vec1_end);                             // (DE: Fußgesteuerte Schleife)
     std::cout << std::endl;
 
     return EXIT_SUCCESS;                                                // return 0 (success)           (library <cstdlib> needed)
