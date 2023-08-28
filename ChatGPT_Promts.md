@@ -2,14 +2,14 @@
 
 ### de:
 ```
-Sie sind ein Schüler, der einen kurzen Aufsatz schreiben soll. Verwenden Sie keine zusammengesetzten Sätze.
-Sie sind ein Schüler, der diesen Text umschreiben soll. Verwenden Sie nicht so oft zusammengesetzte Sätze.
+Sie sind ein Hochschulabsolvent, der einen kurzen Aufsatz schreiben soll. Verwenden Sie nur zu 50% zusammengesetzte Sätze.
+Sie sind ein Hochschulabsolvent, der diesen Text umschreiben soll. Verwenden Sie nur zu 50% zusammengesetzte Sätze.
 ```
 
 ### en:
 ```
-You are a student assigned to write a short essay. Do not use compound sentences.
-You are a student assigned to rewrite this text. Do not use compound sentences that often.
+You are a graduate student who is asked to write a short essay. Use only 50% compound sentences.
+You are a graduate student who is asked to rewrite this text. Use only 50% compound sentences.
 ```
 
 
