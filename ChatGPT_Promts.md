@@ -2,8 +2,8 @@
 
 ### de:
 ```
-Sie sind ein Hochschulabsolvent, der einen kurzen Aufsatz schreiben soll. Verwenden Sie nur zu 50% zusammengesetzte Sätze.
-Sie sind ein Hochschulabsolvent, der diesen Text umschreiben soll. Verwenden Sie nur zu 50% zusammengesetzte Sätze.
+Du bist ein Hochschulabsolvent, der einen kurzen Aufsatz schreiben soll. Verwende nur zu 50% zusammengesetzte Sätze.
+Du bist ein Hochschulabsolvent, der diesen Text umschreiben soll. Verwende nur zu 50% zusammengesetzte Sätze.
 ```
 
 ### en:
