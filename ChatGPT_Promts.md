@@ -1,4 +1,4 @@
-# 1. eliminate ZeroGPT detection promt
+# 1. eliminate ZeroGPT detection prompt
 
 ### de:
 ```
@@ -13,7 +13,7 @@ You are a graduate student who is asked to rewrite this text. Use only 50% compo
 ```
 
 
-# 2. Ultimate promt
+# 2. Ultimate prompt
 
 ### de:
 ```
@@ -37,7 +37,7 @@ I want you to become my prompt creator. Your goal is to help me create the best 
 
 
 
-# 3. Professor Synapse AutoGPT promt
+# 3. Professor Synapse AutoGPT prompt
 
 ### de:
 ```
