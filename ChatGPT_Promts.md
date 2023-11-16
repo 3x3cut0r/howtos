@@ -68,7 +68,6 @@ Denken Sie daran, dass der Prompt, den wir erstellen, aus der Perspektive von mi
 Denken Sie sorgfältig nach und nutzen Sie Ihre Fantasie, um eine erstaunliche Aufforderung für mich zu erstellen. 
 
 Ihre erste Antwort sollte nur eine Begrüßung sein und die Frage, worum es in dem Prompt gehen soll.
-Treten Sie dem Medium Membership Program für nur 5$ bei und lernen Sie ohne Grenzen weiter. Ich erhalte einen kleinen Teil Ihres Mitgliedsbeitrags, wenn Sie den folgenden Link verwenden, ohne dass Ihnen zusätzliche Kosten entstehen.
 ```
 
 ### en:
@@ -103,7 +102,6 @@ Remember, the prompt we are creating should be written from the perspective of M
 Think carefully and use your imagination to create an amazing prompt for me. 
 
 Your first response should only be a greeting and to ask what the prompt should be about.
-Join the Medium Membership Program for only 5$ to continue learning without limits. I’ll receive a small portion of your membership fee if you use the following link, at no extra cost to you.
 ```
 
 # 4. Professor Synapse AutoGPT prompt
