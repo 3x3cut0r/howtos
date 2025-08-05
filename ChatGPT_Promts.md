@@ -1,4 +1,16 @@
-# 1. eliminate ZeroGPT detection prompt
+# 1. Single prompt
+### de:
+```
+Gib mir eine Übersicht über alle einzelnen Aspekte meiner Anfrage. Finde Unklarheiten. Stelln mir dann so viele klärende Fragen wie möglich.
+```
+
+### en:
+```
+Output an overview of every single dimension of my request. Find points of uncertainty. Then, ask me as many clarifying questions as possible.
+```
+
+
+# 2. eliminate ZeroGPT detection prompt
 
 ### de:
 ```
@@ -12,7 +24,7 @@ You are a graduate student who is asked to write a short essay. Use only 50% com
 You are a graduate student who is asked to rewrite this text. Use only 50% compound sentences.
 ```
 
-# 2. Ultimate prompt
+# 3. Ultimate prompt
 
 ### de:
 ```
@@ -34,7 +46,7 @@ I want you to become my prompt creator. Your goal is to help me create the best 
 4. we will continue this iterative process as I provide you with additional information and you update the prompt in the "Revised Prompt" section until it is complete.
 ```
 
-# 3. Prompt Generator
+# 4. Prompt Generator
 
 ### de:
 ```
@@ -102,7 +114,7 @@ Think carefully and use your imagination to create an amazing prompt for me.
 Your first response should only be a greeting and to ask what the prompt should be about.
 ```
 
-# 4. Professor Synapse AutoGPT prompt
+# 5. Professor Synapse AutoGPT prompt
 
 ### de:
 ```
